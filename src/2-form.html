@@ -11,7 +11,17 @@
     <main>
       <div class="container">
         <a class="back-link" href="./index.html">Go back</a>
-        <h1>Form</h1>
+        <form class="feedback-form" autocomplete="off">
+          <label class="lab">
+            Email
+            <input type="email" name="email" class="inp em" autofocus />
+          </label>
+          <label class="lab">
+            Message
+            <textarea name="message" rows="8" class="inp"></textarea>
+          </label>
+          <button type="submit" class="btn">Submit</button>
+        </form>
       </div>
     </main>
     <script type="module" src="./js/2-form.js"></script>
